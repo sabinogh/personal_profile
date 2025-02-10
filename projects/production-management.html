@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production Management Project - Portfolio</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="../script.js" defer></script>
+</head>
+<body>
+    <!-- Header com Menu igual ao index.html -->
+    <header>
+        <nav>
+            <div class="logo-container">
+                <div class="logo">
+                    <span>GS</span>
+                </div>
+                <div class="tech-icons">
+                    <i class="fab fa-html5" title="HTML5"></i>
+                    <i class="fab fa-css3-alt" title="CSS3"></i>
+                    <i class="fas fa-chart-column" title="Power BI"></i>
+                    <i class="fas fa-calculator" title="DAX"></i>
+                    <i class="fas fa-database" title="SQL"></i>
+                    <i class="fab fa-python" title="Python"></i>
+                    <i class="fas fa-file-excel" title="Excel"></i>
+                </div>
+            </div>
+            <button class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <div class="menu-overlay">
+        <div class="menu-content">
+            <button class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="../index.html">Projects</a></li>
+                    <li><a href="about_me.html">About me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/guilherme-henrique-sabino-94b2a1139/" target="_blank">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main class="project-detail">
+        <div class="project-content">
+            <h1>Production Management</h1>
+            
+            <section class="project-section">
+                <h2>Project Overview</h2>
+                <p>The project aims to inform you about everything in the factory, analyze the number of hours worked, and control factory expenses.</p>
+                <p>In this example, they were separated into three tabs: Shutdown Types, Monthly Costs, and Cost Trees.</p>
+            </section>
+
+            <section class="project-section">
+                <h3>Shutdown Types</h3>
+                <div class="project-image">
+                    <img src="../images/production_management_BI_1.png" alt="Shutdown Types Dashboard">
+                </div>
+                <div class="analysis">
+                    <p>We can see that the factory is separated into three classifications: Unproductive, Production and Rework.</p>
+                    <p>In July a big jump in Unproductive hours along with Rework.</p>
+                    
+                    <div class="analysis-details">
+                        <div class="detail-item">
+                            <h4>Causes:</h4>
+                            <p>A special project in the factory caused many design errors to be discovered when the equipment was delivered.</p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h4>Solution:</h4>
+                            <p>Analysis together with the factory and the vendors of the project type for future improvements. After alignment meetings, we saw a drastic drop in Rework and Unproductive over the months. Consequently, factory Production had an increase in its indexes.</p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h4>Result:</h4>
+                            <p>Aim for more productive working hours over the months.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <h3>Monthly Cost</h3>
+                <div class="project-image">
+                    <img src="../images/production_management_BI_2.png" alt="Monthly Cost Dashboard">
+                </div>
+                <div class="analysis">
+                    <p>Here you can get a better view of factory expenses. The company's cost is added to the notes coming directly from the factory by an ERP system. It uses the employee's hours x the machine operated, thus obtaining the factory cost.</p>
+                    <p>In this project, you can see the expense by production categories and we know that the average annual cost of the factory is R$99,550.</p>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <h3>Cost Tree</h3>
+                <div class="project-image">
+                    <img src="../images/production_management_BI_3.png" alt="Cost Tree Dashboard">
+                </div>
+                <div class="analysis">
+                    <p>At this stage, we can analyze where the factory's costs are being consumed.</p>
+                    <p>Looking at the "Unproductive" classification (where the greatest reduction efforts are), you can see the type of Resource (machine or work position), Employee and we arrive at the end, which is the Process.</p>
+                    <p>In this case, the Process had the highest cost in "Lack of Supply". What does this mean? The operator spent a lot of time having to refuel the machine himself.</p>
+                    
+                    <div class="detail-item">
+                        <h4>Solution:</h4>
+                        <p>Given the high manufacturing costs, it is clear that it is worth hiring a helper at the factory, who will have a lower hiring cost than the one generated by the Unproductive. By having the helper, you can meet all the "Supply Shortages" and free up the operator to produce more.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section tools">
+                <h2>Tools Used</h2>
+                <div class="tools-list">
+                    <div class="tool-item">
+                        <i class="fas fa-chart-column"></i>
+                        <span>Power BI</span>
+                    </div>
+                    <div class="tool-item">
+                        <i class="fas fa-calculator"></i>
+                        <span>DAX</span>
+                    </div>
+                    <div class="tool-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section note">
+                <h2>Important Note!</h2>
+                <p>This project is a real project, but for reasons of confidentiality law, all the layouts and data have been changed to show an example.</p>
+                <p>Would you like to see the real project? Just click on the link below to see the project at Power BI.</p>
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiNzJlZGU1ODQtODAyOC00YzI4LTliYTYtNWY4YzJhOGE3ZmFiIiwidCI6IjNlOGVmY2VlLWY5ODctNGE5Yy05Nzc3LTBhYmM2MmI4NTI0NSJ9&pageName=ReportSection9a86215dfcdf48dbe060" 
+                   class="btn btn-primary" 
+                   target="_blank">
+                    <p>View Power BI Report</p>
+                </a>
+            </section>
+        </div>
+
+    </main>
+</body>
+</html> 

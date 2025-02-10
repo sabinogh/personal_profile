@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Business Intelligence | Data Analyst</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <div class="logo">
+                    <span>GS</span>
+                </div>
+                <div class="tech-icons">
+                    <i class="fab fa-html5" title="HTML5"></i>
+                    <i class="fab fa-css3-alt" title="CSS3"></i>
+                    <i class="fas fa-chart-column" title="Power BI"></i>
+                    <i class="fas fa-calculator" title="DAX"></i>
+                    <i class="fas fa-database" title="SQL"></i>
+                    <i class="fab fa-python" title="Python"></i>
+                    <i class="fas fa-file-excel" title="Excel"></i>
+                </div>
+            </div>
+            <button class="menu-btn">
+
+                <i class="fas fa-bars"></i> <!-- Menu Icon -->
+            </button>
+        </nav>
+    </header>
+
+    <div class="menu-overlay">
+        <div class="menu-content">
+            <button class="close-menu">
+                <i class="fas fa-times"></i> <!-- Close Icon -->
+            </button>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="projects/about_me.html">About me</a></li>
+                    <li><a href="projects/contact.html">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/guilherme-henrique-sabino-94b2a1139/" target="_blank">LinkedIn</a></li>
+                </ul>
+
+
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Guilherme Henrique Sabino</h2>
+                <h1>Business Intelligence<br>and Data Analyst</h1>
+                <p>I am a highly analytical and results-driven Business Intelligence and Data Analyst 
+                    with a strong background in Cost Controlling and Financial Data Analysis. With expertise 
+                    in Power BI, SQL, Python, and VBA, I specialize in transforming complex datasets into 
+                    strategic business insights, helping organizations optimize their financial performance 
+                    and decision-making processes.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn scroll-link">View Projects</a>
+                    <span class="or">or</span>
+                    <a href="projects/about_me.html" class="btn btn-secondary">Read About Me</a>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="./images/IMG_9554.png" alt="Profile Picture" class="debug-image">
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="projects-header">
+                <span class="subtitle">SELECTED PROJECTS</span>
+                <h2 class="title">Case studies</h2>
+            </div>
+            
+            <div class="project-grid">
+                <article class="project-card">
+                    <a href="projects/production-management.html">
+                        <div class="image-hover-container">
+                            <img src="./images/production_management_thumbnail_BW.png" alt="Production Management Project" class="image-bw">
+                            <img src="./images/production_management_thumbnail.png" alt="Production Management Project" class="image-color">
+                        </div>
+                        <h3>Production Management</h3>
+                        <div class="project-technologies">
+                            <i class="fas fa-chart-column" title="Power BI"></i>
+                            <i class="fas fa-calculator" title="DAX"></i>
+                            <i class="fas fa-database" title="SQL"></i>
+                        </div>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="projects/international-sales.html">
+                        <div class="image-hover-container">
+                            <img src="./images/international_sales_thumbnail_BW.png" alt="International Sales Project" class="image-bw">
+                            <img src="./images/international_sales_thumbnail.png" alt="International Sales Project" class="image-color">
+                        </div>
+                        <h3>International Sales</h3>
+                        <div class="project-technologies">
+                            <i class="fas fa-chart-column" title="Power BI"></i>
+                            <i class="fas fa-calculator" title="DAX"></i>
+                            <i class="fas fa-file-excel" title="Excel"></i>
+                        </div>
+                    </a>
+
+
+
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html> 
